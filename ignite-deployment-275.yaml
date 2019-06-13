@@ -17,7 +17,7 @@ spec:
         - name: OPTION_LIBS
           value: ignite-kubernetes
         - name: CONFIG_URI
-          value: https://raw.githubusercontent.com/apache/ignite/master/examples/config/example-cache.xml
+          value: https://raw.githubusercontent.com/apache/ignite/master/modules/kubernetes/config/example-kube-rbac.xml
         ports:
         - containerPort: 11211 # REST port number.
         - containerPort: 47100 # communication SPI port number.
