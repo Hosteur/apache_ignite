@@ -1,0 +1,13 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: ignite-270
+  namespace: ignite
+spec:
+  rules:
+  - http:
+      paths:
+      - backend:
+          serviceName: ignite-270
+          servicePort: 8080
+        path: /ignite-270
